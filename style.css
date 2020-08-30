@@ -1,7 +1,6 @@
 body {
-  background: lightblue;
+  background: lightgray;
 }
-/* every box is this size */
 
 .skyblue {
   background: deepskyblue;
@@ -17,16 +16,13 @@ body {
   align-content: center;
 }
 
-
-/* Giving our navbar some padding and a background color */
 .navbar {
   margin-right: 0px;
   margin-left: 0px;
   padding: 25px;
-  background: #5D6D7E;
+  background: white;
 }
 
-/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
 .navbar li {
   display: d-block;
   padding: 10px;
@@ -59,7 +55,7 @@ p{
   border: 1px solid #2874A6;
     padding: 15px;
 }
-/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+
 @media (max-width: 480px) {
   .navbar li {
     padding: 10px;
@@ -76,7 +72,7 @@ p{
   }
 }
 
-/* For desktop: */
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -91,7 +87,6 @@ p{
 .col-12 {width: 100%;}
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
     }
